@@ -1,0 +1,58 @@
+#title,
+.title  {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main-img,
+.chia-img,
+.lasagna-img,
+.eggs-img {
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: auto;
+    border: 0.4cm solid black;
+    margin-bottom: 2cm;
+}
+.chia-img,
+.lasagna-img,
+.eggs-img {
+    width: 50%;
+    height: auto;
+}
+.intro,
+.page-two,
+.lasagna-body,
+.eggs-body {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 0.75cm;
+    margin-left: .75cm;
+}
+ul li {
+    margin-left: 1.25cm;
+    margin-bottom: 0.5cm;
+    line-height: 0.75cm;
+}
+ol li {
+    margin-left: 1.25cm;
+    margin-bottom: 0.5cm;
+    line-height: 0.75cm;
+    padding-left: 0.5cm;
+}
+.chia-body,
+.main-body,
+.lasagna-body,
+.eggs-body {
+    background-color: antiquewhite;
+}
+a {
+    color:rgb(87, 50, 50);
+    text-decoration: none;
+    font-size: 22px;
+}
+.sub-ingredients {
+    list-style: none;
+}
